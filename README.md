@@ -8,16 +8,16 @@
 
 1. 创建平台
 
-   ```
+```
    cd ~/yourpath/cordova-sharesdk-demo
    cordova platform add ios android
-   ```
+```
 
 2. 添加cordova-plugin-sharesdk插件
 
-   ```
-   cordova plugin add cordova-plugin-sharesdk --variable SHARESDK_ANDROID_APP_KEY=xxxx --variable SHARESDK_IOS_APP_KEY=xxxx --variable WECHAT_APP_ID=xxxx --variable WECHAT_APP_SECRET=xxxx --variable WEIBO_APP_ID=xxxx --variable WEIBO_APP_SECRET=xxxx --variable WEIBO_REDIRECT_URL=http://xxxx --variable QQ_ANDROID_APP_ID=xxxx --variable QQ_ANDROID_APP_KEY=xxxx QQ_IOS_APP_ID=xxxx --variable QQ_IOS_APP_HEX_ID=xxxx --variable QQ_IOS_APP_KEY=xxxx
-   ```
+```
+   cordova plugin add https://github.com/shanquan/cordova-plugin-sharesdk.git --variable SHARESDK_ANDROID_APP_KEY=1ae3baffc4bd0 --variable SHARESDK_IOS_APP_KEY=1ae3baffc4bd0 --variable WECHAT_APP_ID=wx956a3cabf7faf4bf --variable WECHAT_APP_SECRET=8bd89564a1d0c35443c1d019073a6982 --variable WEIBO_APP_ID=568898243 --variable WEIBO_APP_SECRET=38a4f8204cc784f81f9f0daaf31e02e3 --variable WEIBO_REDIRECT_URL=http://www.sharesdk.cn --variable QQ_ANDROID_APP_ID=100371282 --variable QQ_ANDROID_APP_KEY=aed9b0303e3ed1e27bae87c33761161d QQ_IOS_APP_ID=100371282 --variable QQ_IOS_APP_HEX_ID=05FB8B52 --variable QQ_IOS_APP_KEY=aed9b0303e3ed1e27bae87c33761161d
+```
    
 为了方便大家查看demo，可使用以下值代入上述对应的xxxx。如果无法使用，请自行重新申请。
 
